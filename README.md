@@ -29,17 +29,19 @@ This repository provides guidelines for writing commit messages using GitHub Cop
      ]
      ```
 
-4. **Using GitHub Copilot for Commit Messages:**
+4. **Copy and Edit Instructions File:**
+
+   - You can simply copy and paste the `.copilot-commit-message-instructions.md` file from this project into your working directory after completing the basic setup in VSCode.
+   - Feel free to edit the instructions file locally to suit your project's needs.
+   - Ensure that the instructions file is present in your working directory for GitHub Copilot to use it.
+
+5. **Using GitHub Copilot for Commit Messages:**
 
    - When you are ready to commit changes, open the Source Control view (`Ctrl+Shift+G` or `Cmd+Shift+G` on macOS).
    - Stage your changes.
    - In the commit message input box, start typing your commit message.
    - GitHub Copilot will provide suggestions based on the commit message instructions provided in this repository.
-
-5. **Copy and Edit Instructions File:**
-   - You can simply copy and paste the `.copilot-commit-message-instructions.md` file from this project into your working directory after completing the basic setup in VSCode.
-   - Feel free to edit the instructions file locally to suit your project's needs.
-   - Ensure that the instructions file is present in your working directory for GitHub Copilot to use it.
+   - Alternatively, you may see sparkles ✨ in the commit message input box. Click on them to generate a commit message using GitHub Copilot's suggestions. Once satisfied with the generated message, click "Commit".
 
 ## Commit Message Format
 
